@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background:linear-gradient(to top left,rgb(245, 220, 151),rgb(136, 221, 255));
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sign-up{
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    margin: 0 auto;
+    padding: 25px;
+    border: 2px solid grey;
+    width: 400px;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    /* color: aliceblue; */
+    backdrop-filter: blur(15px);
+    /* background-color: aliceblue; */
+    /* background: linear-gradient(to top left, rgb(245, 151, 151), rgb(174, 255, 235)); */
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px grey;
+    z-index: 2;
+    background-repeat: no-repeat;
+}
+
+.sign-up .header h1{
+    font-size: 1.9rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.sign-up .header p{
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 1rem;
+}
+.sign-up p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.sign-up p input{
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    background-color: rgb(211, 211, 211);
+    font-size: 1rem;
+    padding: 10px 3px;
+}
+
+.sign-up p label,.sign-up p input{
+    display: block;
+}
+.sign-up .submit-btn{
+    height:50px;
+    background:linear-gradient(to left, rgb(71, 203, 255),rgb(211, 209, 209));
+    font-size: 1.4rem;
+    padding: 10px 0px;
+    border-radius: 25px;
+    width: 250px;
+    margin: 0px auto;
+    box-shadow: 1px 0px 5px rgb(94, 94, 223);
+}
+
+.sign-up .submit-btn:hover{
+    background: rgb(133, 220, 255);
+    box-shadow: 1px 0px 5px rgb(255, 255, 255);
+
+}
+
+.c-1{
+    background: linear-gradient(to top left,rgb(142, 245, 142),rgb(220, 240, 245));
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 50%;
+    box-shadow: 5px 5px 10px rgb(150, 231, 194);
+    left: 10vw;    
+    animation-name: c1;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+.c-2{
+    background: linear-gradient(to top left,rgb(188, 234, 255),rgb(192, 192, 192));
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: relative;
+    box-shadow: 5px 5px 10px rgb(150, 231, 194);
+    float: right;
+    right: 10vw;
+    bottom: 10%;
+    animation-name: c2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.c-3{
+    background: linear-gradient(to top left,rgb(255, 226, 188),rgb(193, 223, 145));
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: relative;
+    box-shadow: 5px 5px 10px rgb(150, 231, 194);
+    float: right;
+    right: 10vw;
+    bottom: 10%;
+    animation-name: c3;
+    animation-duration:30s;
+    animation-iteration-count: infinite;
+}
+
+.c-4{
+    background: linear-gradient(to top left,rgb(230, 161, 212),rgb(192, 192, 192));
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+    position: relative;
+    box-shadow: 5px 5px 10px rgb(150, 231, 194);
+    float: right;
+    right: 10vw;
+    bottom: 10%;
+    animation-name: c4;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+.c-5{
+    background: linear-gradient(to top left,rgb(194, 245, 113),rgb(192, 192, 192));
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    position: relative;
+    box-shadow: 5px 5px 10px rgb(150, 231, 194);
+    float: right;
+    right: 10vw;
+    bottom: 10%;
+    animation-name: c5;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes c1 {
+    0% {left: 0px; top:0px}
+    25% {left: 85vw; top:25vh}
+    50% {left: 0vw; top:15vh}
+    75% {left: 5vw; top:25vh}
+    100% {left: 0px; top:0px}
+}
+@keyframes c2 {
+    0% {right: 0px; bottom:0px}
+    25% {right: 25vw; bottom:20vh}
+    50% {right: 5vw; bottom:80vh}
+    75% {right: 25vw; bottom:5vh}
+    100% {right: 0px; bottom:0px}
+}
+@keyframes c3 {
+    0% {right: 10px; bottom:5px}
+    25% {right: 2vw; bottom:20vh}
+    50% {right: 5vw; bottom:50vh}
+    75% {right: 20vw; bottom:5vh}
+    100% {right: 10px; bottom:5px}
+}
+@keyframes c4 {
+    0% {right: 30px; bottom:15px}
+    25% {right: 20; bottom:60vh}
+    50% {right: 50vw; bottom:0vh}
+    75% {right: 0vw; bottom:5vh}
+    100% {right: 30px; bottom:15px}
+}
+@keyframes c5 {
+    0% {right: 50px; bottom:5px}
+    25% {right: 40vw; bottom:2vh}
+    50% {right: 50vw; bottom:20vh}
+    75% {right: 8vw; bottom:50vh}
+    100% {right: 50px; bottom:5px}
+}
+
+
