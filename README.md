@@ -2,9 +2,9 @@
 
 Welcome to the SignUp Page repository! In this project, we have created a stylish and interactive sign-up page using HTML, CSS, and JavaScript.
 
-## Preview
+## Live Demo
 
-![SignUp Page Preview](https://shyam-sardhara-sign-up-page.netlify.app/)
+Check out the live hosted version of the SignUp Page: [Live Demo](https://shyam-sardhara-sign-up-page.netlify.app/)
 
 ## Features
 
