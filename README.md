@@ -4,7 +4,7 @@ Welcome to the SignUp Page repository! In this project, we have created a stylis
 
 ## Preview
 
-![SignUp Page Preview](https://shyam-sardhara-sign-up-page.netlify.app/)]
+![SignUp Page Preview](https://shyam-sardhara-sign-up-page.netlify.app/)
 
 ## Features
 
